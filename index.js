@@ -14,3 +14,4 @@
 // bat_btn.addEventListener("click",(randoo_no)=>{
 //     if(randoo_no=="")
 // })
+function handle(){}

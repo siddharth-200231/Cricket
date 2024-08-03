@@ -12,6 +12,8 @@ module.exports = {
         'lg': {'min': '1023px'},
         'md': {'min': '767px'},
         'sm': {'min': '639px'},
+        'xs':{'max':'350px'},
+        'xsm':{'max':'767px'}
       }
     },
   },

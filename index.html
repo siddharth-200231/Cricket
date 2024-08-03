@@ -6,15 +6,24 @@
     <title>Document</title>
     <link rel="stylesheet" href="output.css" />
 </head>
-<body>
-    <nav class="p-3 flex justify-between bg-slate-200 items-center">
+<body class="">
+    <nav class="p-3 flex justify-around items-center bg-black">
         <a href="#" class="flex items-center space-x-1">
-            <img src="./assets/cat.png" alt="Cat" class="max-w-10 h-auto">
-            <span class="text-fuchsia-600 font-semibold text-xl">CAT</span>
+            <img src="./assets/cat.png" alt="Cat" class="max-w-10 h-auto ">
+            <span class="text-fuchsia-600 font-semibold text-xl xs:text-sm">Catopedia</span>
         </a>
-        <button class="px-1">
-          <img src="./assets/burger-menu.png" alt="" class="max-w-9">
+        <button class="px-1 md:hidden hover:border-2 hover:box-border :" onclick="handle()">
+          <img src="./assets/burger-menu.png" alt="" class="max-w-9 xs:max-w-7">
         </button>
+        <div id="nav-menu" class="xsm:hidden w-2/3 flex justify-around text-lg text-gray-300 font-semibold">
+          <a href="" class="box-border p-2 ">
+              Home
+          </a>
+          <a href="" class="box-border p-2 ">Explore Cats</a>
+          <a href="" class="box-border p-2 ">Pricing</a>
+          <a href="" class="box-border p-2 ">Login</a>
+        </div>
     </nav>
+    <script src="index.js"></script>
 </body>
 </html>
